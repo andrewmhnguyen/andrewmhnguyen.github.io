@@ -15,8 +15,8 @@ body
 .navbar a{
     color: #FFF;
     display: inline-block;
-    padding: 14px;
-    font-size: 16px;
+    padding: 0.8vw;
+    font-size: 1vw;
     text-transform: uppercase;
     vertical-align: middle;
     text-decoration: none;
