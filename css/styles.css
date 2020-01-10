@@ -43,12 +43,14 @@ body
 }
 
 .title h1{
+    width: 100%;
     font-weight: normal;
     height: 5vw;
     font-size: 7vw;
 }
 
 .title h2{
+    width: 100%;
     font-weight: normal;
     height: 3vw;
     font-size: 3vw;
@@ -76,12 +78,6 @@ body
     color: #FFF;
 }
 
-#about h1{
-    text-align: center;
-    font-size: 3vw;
-    font-weight: normal;
-}
-
 #about p{
     text-align: left;
     margin-left: 5%;
@@ -106,31 +102,24 @@ body
     color: #FFF;
 }
 
-#education h1{
-    font-size: 3vw;
-    font-weight: normal;
-    height: 2vw;
-}
-
-#education p{
-    font-size: 1.5vw;
-    font-family: 'PT Serif', serif;
-}
-
 
 #projects{
-    background-color:#777;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-right: 5%;
+    margin-left: 5%;
+    background-color:#999;
     color: #FFF;
 }
 
-#projects h1{
-    font-size: 3vw;
-    font-weight: normal;
-    height: 2vw;
+#projects p{
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1.5vw;
 }
 
-#projects p{
-    font-size: 1.5vw;
-    font-family: 'PT Serif', serif;
+#contact a{
+    text-decoration: none;
 }
 
