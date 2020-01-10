@@ -1,7 +1,7 @@
 body 
 {
     font-family: 'Open Sans', sans-serif;
-    background-color:#777;
+    background-color:#444;
     color:#FFF
 }
 
@@ -36,12 +36,6 @@ body
 
 .subtitle{
     font-size: 3vw;
-    color: #DDD;
-    height: 1vw;
-}
-
-.image{
-    position: absolute;
-    left: 20%;
-    bottom: 20%;
+    color: #AAA;
+    width: 100%
 }
