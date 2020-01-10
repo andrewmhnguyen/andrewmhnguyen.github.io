@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body 
 {
     font-family: 'Open Sans', sans-serif;
@@ -15,7 +19,7 @@ body
     color: #FFF;
     display: inline-block;
     padding: 0.8vw;
-    font-size: 1vw;
+    font-size: 1.2vw;
     height: 1vw;
     text-transform: uppercase;
     vertical-align: middle;
@@ -51,26 +55,78 @@ body
     color: #CCC;
 }
 
+#body{
+    text-align: center;
+    background-color: #777;
+}
+
+#body h1{
+    padding: 4%;
+    font-size: 3vw;
+    font-weight: normal;
+    height: 2vw;
+}
+
 #about{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-right: 5%;
+    margin-left: 5%;
+    background-color:#999;
     color: #FFF;
 }
 
 #about h1{
+    text-align: center;
+    font-size: 3vw;
     font-weight: normal;
 }
 
 #about p{
+    font-size: 1.5vw;
+}
+
+.column{
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1.5vw;
+}
+
+#education{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-right: 5%;
+    margin-left: 5%;
+    background-color:#999;
+    color: #FFF;
+}
+
+#education h1{
+    font-size: 3vw;
+    font-weight: normal;
+    height: 2vw;
+}
+
+#education p{
+    font-size: 1.5vw;
     font-family: 'PT Serif', serif;
 }
 
+
 #projects{
+    background-color:#777;
     color: #FFF;
 }
+
 #projects h1{
+    font-size: 3vw;
     font-weight: normal;
+    height: 2vw;
 }
 
 #projects p{
+    font-size: 1.5vw;
     font-family: 'PT Serif', serif;
 }
 
