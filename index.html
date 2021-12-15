@@ -88,7 +88,6 @@
 			</div>
 			<div id = "weather" data-aos='fade-in'>
 				<p>
-					Current weather in San Jose: 
 					<script>
 						var request = new XMLHttpRequest()
 
@@ -98,9 +97,9 @@
     						var data = JSON.parse(this.response)
     						console.log(data.main.temp)
 						}
-
 						request.send()
 					</script>
+					Current weather in San Jose: 
 				</p>
 			</div>
 			<br>
