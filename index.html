@@ -88,9 +88,21 @@
 			</div>
 			<div id = "weather" data-aos='fade-in'>
 				<p>
-					<script type='text/javascript' src='config.js'></script>
-					<script type='text/javascript' src='scripts.js'></script>
 					Current weather in San Jose: <span id="weather1"></span> fahrenheit
+					<script>
+						var request = new XMLHttpRequest()
+
+						request.open('GET', 'https://api.openweathermap.org/data/2.5/weather?id=5392171&appid=24e40f29884f1711a3aec72aa439e34a&units=imperial', true)
+
+						request.onload = function () {
+    						var data = JSON.parse(this.response)
+							let temper = data.main.temp
+							document.getElementById("weather1").innerHTML = temper
+						}
+
+						request.send()
+						
+					</script>
 				</p>
 			</div>
 			<br>
