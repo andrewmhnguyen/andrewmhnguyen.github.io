@@ -96,7 +96,7 @@
 
 						request.onload = function () {
     						var data = JSON.parse(this.response)
-    						console.log(data)
+    						console.log(data.main.temp)
 						}
 
 						request.send()
